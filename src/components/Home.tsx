@@ -17,7 +17,7 @@ export function Home(){
                     <div className={styles.headericon}></div>
                     <div className={styles.headertit}><p className={styles.titu}>Comentário de <b>Jean Brito</b> no <b>Portifólio</b>.</p></div>
                 </div>
-                <p className={styles.textin}>KKKKKKKKKKKKKKKKKKKKKKKKK</p>
+                <p className={styles.textin}>KKKKKKKKKKKKKKKKKKKKKKKKKK</p>
                 <div className={styles.showlike}><b className={styles.numberlike}>{like}</b><img className={styles.likecounter} src={likee} alt="like"/></div>
             </div>
             <div className={styles.div22}>
