@@ -15,7 +15,7 @@
 }
 
 .div2{
-
+    visibility: visible;
     justify-content: center;
     align-items: center;
     align-self: center;
