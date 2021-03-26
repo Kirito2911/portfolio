@@ -10,7 +10,9 @@ export function Home(){
     <div className={styles.div1}>
        <div className={styles.div2}>
             <div className={styles.div20}>
-                <button className={styles.like} onClick={moreLike}><img src={likee} alt="like" className={styles.imglike}/></button>
+                <button className={styles.like} onClick={moreLike}>
+                    <img src={likee} alt="like" className={styles.imagelike}/>
+                    </button>
             </div>
             <div className={styles.div21}>
                 <div className={styles.header}>
