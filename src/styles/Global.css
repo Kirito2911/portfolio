@@ -11,6 +11,8 @@ a{
 }
 .container{
     background-image: url(../assets/images/1068673.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
     margin-right: 0%;
