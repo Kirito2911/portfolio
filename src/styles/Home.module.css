@@ -20,7 +20,6 @@
 
 .div20{
     display: flex;
-    opacity: 90%;
     width: 4%;
     height: 40vh;
     margin-right: 0.4%;
@@ -30,6 +29,7 @@
     width: 100%;
     height: 3.75rem;
     background-color: rgba(250, 250, 250, 0.493);
+    background-size: cover;
     border-color: white;
     border-style: solid;
     outline: 0px auto -webkit-focus-ring-color;
