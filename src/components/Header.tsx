@@ -2,12 +2,13 @@ import { useState } from 'react';
 import styles from '../styles/Header.module.css';
 export function Header(){
     const [time, setTime] = useState("");
-    let now = new Date();
-    setInterval(
+    // eslint-disable-next-line
+    const createClock = setInterval(
         function changeHour() {
+            let now = new Date();
             let time = now.getHours().toString() +" : "+ now.getMinutes().toString(); 
             setTime(time);
-      }, 1000)
+      }, 1000);
 
     return(
     <div className={styles.div1}>

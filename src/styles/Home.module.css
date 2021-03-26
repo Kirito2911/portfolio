@@ -10,12 +10,11 @@
     width: 100%;
     height: 10vh;
     background-color: transparent;
-    
    
 }
 
 .div2{
-    visibility: visible;
+    visibility: hidden;
     justify-content: center;
     align-items: center;
     align-self: center;
@@ -124,6 +123,7 @@ margin-left: 0.3rem;
     width: 20%;
     height: 40vh;
     margin-left: 2.6%;
+    background-color: rgba(0, 0, 0, 0.705);
 }
 
 .tit{
