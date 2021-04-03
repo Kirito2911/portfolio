@@ -6,7 +6,9 @@
     flex-direction: row;
     margin-left: -8rem;
 }
-
+.slider{
+    width: 100%;
+}
 .option{
     display:flex;
     margin-top: 1rem;
