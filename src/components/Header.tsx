@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from '../styles/Header.module.css';
+import icon from '../assets/images/playstation.png';
 export function Header(){
     const [time, setTime] = useState("");
     // eslint-disable-next-line
@@ -12,13 +13,13 @@ export function Header(){
 
     return(
     <div className={styles.div1}>
-        <div className={styles.div11}>Alerta</div>
-        <div className={styles.div12}>Friends</div>
+        <div className={styles.div11}><img src={icon} alt="playsation" /></div>
+        <div className={styles.div12}></div>
         <div className={styles.div13}>
             <img src="https://github.com/kirito2911.png" alt="jean brito" />
             <p>Jean Brito</p>
             </div>
-        <div className={styles.div14}>Tropy</div>
+        <div className={styles.div14}></div>
         <div className={styles.div15}>{time}</div>
     </div>
     );

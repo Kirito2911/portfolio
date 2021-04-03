@@ -1,4 +1,6 @@
 .div1 {
+    position: absolute;
+    bottom: 13rem;
     margin: 0;
     display: block;
     font-size: 1.85rem;
@@ -57,13 +59,13 @@
 }
 
 .headericon{
-    width: 7%;
+    width: 75px;
     height: 100%;
     background-image: url(https://github.com/kirito2911.png);
     background-size: cover;
 }
 .headertit{
-    width: 93%;
+    width: calc(100% - 75px);
     height: 100%;
     background-color: rgba(0, 0, 0, 0.705);
 }
@@ -170,3 +172,9 @@ margin-left: 0.3rem;
     font-size: 1.25rem;
     white-space: nowrap;
 }
+
+@media screen and (max-width: 1024px) {
+    *{
+      font-size: 0.9rem;
+    }
+  } 

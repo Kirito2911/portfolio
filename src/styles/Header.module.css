@@ -20,6 +20,14 @@
     text-align: center;
 }
 
+.div11 > img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
 .div12{
     justify-content: center;
     align-items: center;
@@ -51,4 +59,5 @@
     margin-right: 6rem;
     text-align: right;
     background-color: transparent;
+    white-space: nowrap;
 }
