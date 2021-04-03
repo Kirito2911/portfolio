@@ -1,11 +1,5 @@
 import styles from '../styles/Home.module.css';
-import likee from "../assets/images/like.png";
-import {useState} from 'react';
 export function Home(){
-    const [like, setLike] = useState(0);
-    function moreLike(){
-        setLike(like+1);
-    }
     return(
     <div className={styles.div1}>
        <div className={styles.div2}>
