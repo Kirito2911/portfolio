@@ -13,10 +13,10 @@ export function Home(){
             </div>
             <div className={styles.div22}>
                 <p className={styles.tit}>Redes Sociais</p>
-                <div className={styles.icon1}><p className={styles.iconleg}><a href="https://www.facebook.com/profile.php?id=100006825931566">Jean Brito</a></p></div>
-                <div className={styles.icon2}><p className={styles.iconleg}><a href="https://github.com/Kirito2911">Kirito2911</a></p></div>
-                <div className={styles.icon3}><p className={styles.iconleg}><a href="mailto:jean_carlo291@hotmail.com">Jean Brito</a></p></div>
-                <div className={styles.icon4}><p className={styles.iconleg}><a href="https://www.linkedin.com/in/jean-brito-930419195/">Jean Brito</a></p></div>
+                <a href="https://www.facebook.com/profile.php?id=100006825931566"><div className={styles.icon1}><p className={styles.iconleg}>Jean Brito</p></div></a>
+                <a href="https://github.com/Kirito2911"><div className={styles.icon2}><p className={styles.iconleg}>Kirito2911</p></div></a>
+                <a href="mailto:jean_carlo291@hotmail.com"><div className={styles.icon3}><p className={styles.iconleg}>Jean Brito</p></div></a>
+                <a href="https://www.linkedin.com/in/jean-brito-930419195/"><div className={styles.icon4}><p className={styles.iconleg}>Jean Brito</p></div></a>
             </div>
        </div>
     </div>

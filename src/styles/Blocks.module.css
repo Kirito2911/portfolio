@@ -50,3 +50,45 @@
     transition: 0.3s;
     white-space: nowrap;
 }
+
+
+@media screen and (max-width: 800px) {
+
+    .option:hover {
+        margin-top: 0;
+        opacity: 1;
+        width: 13rem;
+        height: 13rem;
+        border-color: white;
+        border-style: solid;
+        
+    }
+
+    .option{
+        display:flex;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 8rem;
+        height: 8rem;
+        background-size: cover;
+        transition: 0.2s;
+        border: none;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+
+    .option:hover p{
+        position: relative;
+        top: 12rem;
+        left: 13.2rem;
+        font-size: 1rem;
+        visibility: visible;
+        color: honeydew;
+        transition: 0.3s;
+        white-space: nowrap;
+    }
+    .divop{
+        display: flex;
+        height: 200px;
+    }
+   } 
