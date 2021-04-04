@@ -8,7 +8,7 @@ export function Home(){
                     <div className={styles.headericon}></div>
                     <div className={styles.headertit}><p className={styles.titu}>Comentário de <b>Jean Brito</b> no <b>Portifólio</b>.</p></div>
                 </div>
-                <p className={styles.textin}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <p className={styles.textin}>Portfólio baseado na interface do PS4 criado em ReactJS.</p>
              
             </div>
             <div className={styles.div22}>
