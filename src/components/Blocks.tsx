@@ -36,52 +36,52 @@ export function Blocks(){
         return (
             
             <Slider {...settings}>
-            <div>
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 1</p> 
             </button>
             </div>
-            <div>
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 2</p> 
             </button>
             </div>
-            <div>
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 3</p> 
             </button>
-            </div>
-            <div>
+            </div >
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 4</p> 
             </button>
             </div>
-            <div>
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 5</p> 
             </button>
             </div>
-            <div>
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 6</p> 
             </button>
             </div>
-            <div>
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 7</p> 
             </button>
             </div>
-            <div>
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 8</p> 
             </button>
             </div>
-            <div>
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 9</p> 
             </button>
             </div>
-            <div>
+            <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 10</p> 
             </button>
