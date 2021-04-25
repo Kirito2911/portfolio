@@ -53,7 +53,7 @@
 
 
 @media screen and (max-width: 800px) {
-
+   
     .option:hover {
         margin-top: 0;
         opacity: 1;
@@ -79,9 +79,9 @@
 
     .option:hover p{
         position: relative;
-        top: 12rem;
-        left: 13.2rem;
-        font-size: 1rem;
+        top: 10.8rem;
+        left: 13.4rem;
+        font-size: 2rem;
         visibility: visible;
         color: honeydew;
         transition: 0.3s;

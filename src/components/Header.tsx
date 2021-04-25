@@ -7,7 +7,19 @@ export function Header(){
     const createClock = setInterval(
         function changeHour() {
             let now = new Date();
-            let time = now.getHours().toString() +" : "+ now.getMinutes().toString(); 
+            let hour = '';
+            if(now.getHours().toString().length===1){
+                hour ='0'+ now.getHours().toString();
+            } else{
+                hour=now.getHours().toString();
+            }
+            let minutes = '';
+            if(now.getMinutes().toString().length===1){
+                minutes ='0'+ now.getMinutes().toString();
+            } else{
+                minutes=now.getMinutes().toString();
+            }
+            let time = hour +' : '+minutes; 
             setTime(time);
       }, 1000);
 

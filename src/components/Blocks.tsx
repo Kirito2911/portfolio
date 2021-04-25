@@ -4,6 +4,7 @@ import Move from '../assets/images/moveit.png';
 import Celol from '../assets/images/celol.png';
 import Kirifli from '../assets/images/kiriflix.png';
 import Poke from '../assets/images/pokedex.png';
+import Pod from '../assets/images/podcastr.png';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -68,11 +69,13 @@ export function Blocks(){
             </button>
             </div>
             </a>
+            <a href="https://podcastr-flame.vercel.app/">
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
-                <p>The Last of Us Parte II</p> 
+            <button className={styles.option} style={{backgroundImage: `url(${Pod})`}}>
+                <p>Podcastr</p> 
             </button>
             </div>
+            </a>
             <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte 6</p> 
