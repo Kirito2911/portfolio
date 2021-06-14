@@ -3,6 +3,7 @@ import Background from '../assets/images/Untitled.png';
 import Move from '../assets/images/moveit.png';
 import Gow from '../assets/images/gow.png';
 import Re from '../assets/images/re.png';
+import Cv from '../assets/images/cv.png';
 import Final from '../assets/images/final.png';
 import Celol from '../assets/images/celol.png';
 import Kirifli from '../assets/images/kiriflix.png';
@@ -13,10 +14,15 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 export function Blocks(){
-    let audio = new Audio('/change.mp3');
+    
+    let audio = new Audio("/change.mp3")
+    let audio2 = new Audio("/open.mp3")
     const start = () => {
         audio.play()
       }
+    const enter = () => {
+        audio2.play()
+      }  
     const settings = {
         className: "slider",
         speed: 500,
@@ -46,69 +52,69 @@ export function Blocks(){
           ]
         };
         return (
-            
-            <Slider {...settings}>
-            <a href="https://moveitt-kirito2911.vercel.app/">
+            <Slider {...settings} >
+            <a href="https://moveitt-kirito2911.vercel.app/" >
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Move})`}} onClick={start}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Move})`} } autoFocus>
                 <p>Move It</p> 
             </button>
             </div>
             </a>
             <a href="https://kirito2911.github.io/celol/">
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Celol})`}}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Celol})`}}>
                 <p>Celol</p> 
             </button>
             </div>
             </a>
             <a href="https://kiriflix.vercel.app/">
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Kirifli})`}}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Kirifli})`}}>
                 <p>Kiriflix</p> 
             </button>
             </div >
             </a>
             <a href="https://kirito2911.github.io/pokedex/">
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Poke})`}}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Poke})`}}>
                 <p>Pokédex</p> 
             </button>
             </div>
             </a>
             <a href="https://podcastr-flame.vercel.app/">
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Pod})`}}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Pod})`}}>
                 <p>Podcastr</p> 
             </button>
             </div>
             </a>
+            <a href="https://drive.google.com/file/d/1Vul-zjrU8AbQLjMSdnpCJg_x5YcA5IvD/view?usp=sharing">
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Cv})`}}>
+                <p>Currículo</p> 
+            </button>
+            </div>
+            </a>
+            <div className={styles.divop}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Background})`}}>
                 <p>The Last of Us Parte II</p> 
             </button>
             </div>
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Final})`}}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Final})`}}>
                 <p>Final Fantasy 7 Remake</p> 
             </button>
             </div>
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Gow})`}}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Gow})`}}>
                 <p>God of War</p> 
             </button>
             </div>
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Re})`}}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Re})`}}>
                 <p>Resident Evil Village</p> 
             </button>
             </div>
-            <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
-                <p>The Last of Us Parte 10</p> 
-            </button>
-            </div>
-            
             </Slider>
         
     

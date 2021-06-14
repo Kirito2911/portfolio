@@ -17,6 +17,7 @@
     height: 12rem;
     background-size: cover;
     transition: 0.2s;
+    background-color: transparent;
     border: none;
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;

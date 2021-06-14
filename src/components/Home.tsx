@@ -8,7 +8,7 @@ export function Home(){
                     <div className={styles.headericon}></div>
                     <div className={styles.headertit}><p className={styles.titu}>Comentário de <b>Jean Brito</b> no <b>Portifólio</b>.</p></div>
                 </div>
-                <p className={styles.textin}>Portfólio baseado na interface do PS4 criado em ReactJS.</p>
+                <p className={styles.textin}>Meu nome é Jean, tenho 18 anos e atualmente estou cursando Ciência da Computação. No tempo livre eu gosto de assistir animes ou jogar algum jogo. Tenho um pouco de conhecimento em C, Java, Python, Javascript e algumas outras coisas. Aqui estão alguns projetos acompanhados dos meus jogos favoritos.</p>
              
             </div>
             <div className={styles.div22}>
