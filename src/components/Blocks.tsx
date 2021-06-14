@@ -1,6 +1,8 @@
 import styles from '../styles/Blocks.module.css';
 import Background from '../assets/images/Untitled.png';
 import Move from '../assets/images/moveit.png';
+import Gow from '../assets/images/gow.png';
+import Re from '../assets/images/re.png';
 import Final from '../assets/images/final.png';
 import Celol from '../assets/images/celol.png';
 import Kirifli from '../assets/images/kiriflix.png';
@@ -11,6 +13,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 export function Blocks(){
+    let audio = new Audio('/change.mp3');
+    const start = () => {
+        audio.play()
+      }
     const settings = {
         className: "slider",
         speed: 500,
@@ -44,7 +50,7 @@ export function Blocks(){
             <Slider {...settings}>
             <a href="https://moveitt-kirito2911.vercel.app/">
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Move})`}}>
+            <button className={styles.option} style={{backgroundImage: `url(${Move})`}} onClick={start}>
                 <p>Move It</p> 
             </button>
             </div>
@@ -88,13 +94,13 @@ export function Blocks(){
             </button>
             </div>
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
-                <p>The Last of Us Parte 8</p> 
+            <button className={styles.option} style={{backgroundImage: `url(${Gow})`}}>
+                <p>God of War</p> 
             </button>
             </div>
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
-                <p>The Last of Us Parte 9</p> 
+            <button className={styles.option} style={{backgroundImage: `url(${Re})`}}>
+                <p>Resident Evil Village</p> 
             </button>
             </div>
             <div className={styles.divop}>
