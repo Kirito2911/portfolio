@@ -1,6 +1,7 @@
 import styles from '../styles/Blocks.module.css';
 import Background from '../assets/images/Untitled.png';
 import Move from '../assets/images/moveit.png';
+import Final from '../assets/images/final.png';
 import Celol from '../assets/images/celol.png';
 import Kirifli from '../assets/images/kiriflix.png';
 import Poke from '../assets/images/pokedex.png';
@@ -62,7 +63,7 @@ export function Blocks(){
             </button>
             </div >
             </a>
-            <a href="https://kirito2911.github.io/Pokedex/">
+            <a href="https://kirito2911.github.io/pokedex/">
             <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Poke})`}}>
                 <p>Pokédex</p> 
@@ -78,12 +79,12 @@ export function Blocks(){
             </a>
             <div className={styles.divop}>
             <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
-                <p>The Last of Us Parte 6</p> 
+                <p>The Last of Us Parte II</p> 
             </button>
             </div>
             <div className={styles.divop}>
-            <button className={styles.option} style={{backgroundImage: `url(${Background})`}}>
-                <p>The Last of Us Parte 7</p> 
+            <button className={styles.option} style={{backgroundImage: `url(${Final})`}}>
+                <p>Final Fantasy 7 Remake</p> 
             </button>
             </div>
             <div className={styles.divop}>
