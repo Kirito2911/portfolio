@@ -2,8 +2,8 @@ import styles from '../styles/Blocks.module.css';
 import Background from '../assets/images/Untitled.png';
 import Move from '../assets/images/moveit.png';
 import Gow from '../assets/images/gow.png';
-import Re from '../assets/images/re.png';
 import Cv from '../assets/images/cv.png';
+import Let from '../assets/images/let.png';
 import Final from '../assets/images/final.png';
 import Celol from '../assets/images/celol.png';
 import Kirifli from '../assets/images/kiriflix.png';
@@ -88,6 +88,13 @@ export function Blocks(){
             </button>
             </div>
             </a>
+            <a href="https://letmeask2911.web.app/">
+            <div className={styles.divop}>
+            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Let})`}}>
+                <p>Letmeask</p> 
+            </button>
+            </div>
+            </a>
             <a href="https://drive.google.com/file/d/1Vul-zjrU8AbQLjMSdnpCJg_x5YcA5IvD/view?usp=sharing">
             <div className={styles.divop}>
             <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Cv})`}}>
@@ -108,11 +115,6 @@ export function Blocks(){
             <div className={styles.divop}>
             <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Gow})`}}>
                 <p>God of War</p> 
-            </button>
-            </div>
-            <div className={styles.divop}>
-            <button className={styles.option} onMouseEnter={start} onClick={enter} style={{backgroundImage: `url(${Re})`}}>
-                <p>Resident Evil Village</p> 
             </button>
             </div>
             </Slider>
